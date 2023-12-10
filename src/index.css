@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Glory";
+  background: linear-gradient(to right, #24c74a, #2dfa5d);
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a.active {
+  opacity: 1;
+  background-color: #2e4057;
+}
