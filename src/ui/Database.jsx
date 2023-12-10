@@ -4,7 +4,7 @@ import { Tooltip } from "react-tooltip";
 function Database() {
   return (
     <div className=" w-full">
-      <span className=" font-semibold mb-1">Database:</span>
+      <p className=" font-semibold mb-1">Database:</p>
       <div className="flex items-center space-x-2">
         <Icon
           icon="devicon:mongoose"

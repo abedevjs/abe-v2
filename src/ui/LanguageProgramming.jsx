@@ -4,7 +4,7 @@ import { Tooltip } from "react-tooltip";
 function LanguageProgramming() {
   return (
     <div className=" w-full">
-      <span className=" font-semibold mb-1">Language Programming:</span>
+      <p className=" font-semibold mb-1">Language Programming:</p>
       <div className="flex items-center space-x-2">
         <Icon
           icon="vscode-icons:file-type-html"
