@@ -1,14 +1,14 @@
-import Biodata from "./Biodata";
-import Contact from "./Contact";
-import Courses from "./Courses";
-import GeneralEducation from "./GeneralEducation";
-import JobExperience from "./JobExperience";
-import LanguageProgramming from "./LanguageProgramming";
-import LanguageSpoken from "./LanguageSpoken";
-import TechEducation from "./TechEducation";
-import Frontend from "./Frontend";
-import Backend from "./Backend";
-import Database from "./Database";
+import Biodata from "./Profile Details/Biodata";
+import Contact from "./Profile Details/Contact";
+import Courses from "./Profile Details/Courses";
+import GeneralEducation from "./Profile Details/GeneralEducation";
+import JobExperience from "./Profile Details/JobExperience";
+import LanguageProgramming from "./Profile Details/LanguageProgramming";
+import LanguageSpoken from "./Profile Details/LanguageSpoken";
+import TechEducation from "./Profile Details/TechEducation";
+import Frontend from "./Profile Details/Frontend";
+import Backend from "./Profile Details/Backend";
+import Database from "./Profile Details/Database";
 
 function Profile() {
   return (

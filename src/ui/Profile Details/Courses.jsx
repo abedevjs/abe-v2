@@ -1,5 +1,5 @@
-import { courses } from "../../public/data/courses";
-import UnorderedList from "./UnorderedList";
+import { courses } from "../../../public/data/courses";
+import UnorderedList from "../UnorderedList";
 
 function Courses() {
   return (
