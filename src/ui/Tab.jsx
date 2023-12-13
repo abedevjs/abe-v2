@@ -34,7 +34,7 @@ function TabButton({ tabObj, showTab, setShowTab }) {
 
 function TabContent({ showTab }) {
   return (
-    <div className=" py-2 px-8">
+    <div className=" flex items-center justify-between">
       {showTab == 1 && <Profile />}
       {showTab == 2 && <Portfolio />}
     </div>

@@ -4,7 +4,7 @@ import { Tooltip } from "react-tooltip";
 function Frontend() {
   return (
     <div className=" w-full">
-      <p className=" font-semibold mb-1">Frontend Tech Stack:</p>
+      <p className=" font-semibold mb-1">Frontend Tech Stacks:</p>
       <div className="flex items-center space-x-2">
         <Icon
           icon="devicon:sass"

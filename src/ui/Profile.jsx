@@ -12,7 +12,7 @@ import Database from "./Profile Details/Database";
 
 function Profile() {
   return (
-    <div className="flex justify-between">
+    <div className=" w-full py-2 px-6 flex justify-around">
       <LeftSide />
       <RightSide />
     </div>
