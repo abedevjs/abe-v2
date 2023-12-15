@@ -24,14 +24,9 @@ export default function Carousel() {
   return (
     // CAROUSEL
     <div className=" h-full w-[73rem] flex flex-col justify-between items-center overflow-hidden">
-      {/* TITLE */}
-      <p className="  text-sm font-light">{`Slide ${current + 1} of ${
-        portofolio.length
-      } projects`}</p>
-
       {/* INNER */}
       <div
-        className={` w-full h-[30rem] transition ease-out duration-300  whitespace-nowrap`}
+        className={` w-full h-[30rem] transition ease-out duration-300 space-x-1  whitespace-nowrap`}
         // style={{
         //   transform: `translateX(-${current * 100}%)`,
         // }}
@@ -60,19 +55,25 @@ export default function Carousel() {
         })}
       </div> */}
 
-      {/* ARROWS */}
-      <div className="flex space-x-6 text-3xl z-10">
-        {/* <button onClick={previousSlide}>&#8592;</button> */}
-        <Icon
-          onClick={previousSlide}
-          className=" cursor-pointer"
-          icon="fluent:arrow-left-12-filled"
-        />
-        <Icon
-          onClick={nextSlide}
-          className=" cursor-pointer"
-          icon="fluent:arrow-right-12-filled"
-        />
+      <div className=" w-1/2 flex items-center justify-evenly">
+        {/* TITLE */}
+        <p className="  text-sm font-light">{`Slide ${current + 1} of ${
+          portofolio.length
+        } projects`}</p>
+        {/* ARROWS */}
+        <div className="flex space-x-6 text-3xl z-10">
+          {/* <button onClick={previousSlide}>&#8592;</button> */}
+          <Icon
+            onClick={previousSlide}
+            className=" cursor-pointer"
+            icon="fluent:arrow-left-12-filled"
+          />
+          <Icon
+            onClick={nextSlide}
+            className=" cursor-pointer"
+            icon="fluent:arrow-right-12-filled"
+          />
+        </div>
       </div>
     </div>
   );
@@ -80,9 +81,9 @@ export default function Carousel() {
 
 function CarouselContent({ obj }) {
   return (
-    <div className=" inline-flex items-center justify-around h-full ">
+    <div className="h-full w-full  inline-flex items-center border-2 border-red-500">
       {/* IMAGE */}
-      <div className=" w-[40%] rounded-md shadow-md shadow-gray-600 bg-greenLight">
+      <div className=" flex-1 rounded-md shadow-sm shadow-gray-600 bg-greenLight ">
         <img
           src={`/images/${obj.image}.png`}
           alt=""
@@ -90,9 +91,9 @@ function CarouselContent({ obj }) {
         />
       </div>
       {/* DATA */}
-      <div className=" space-y-12">
+      <div className=" w-[50%]  flex flex-col justify-around space-y-12 border-2 border-black  whitespace-break-spaces">
         {/* Title and Link BOX */}
-        <div className=" w-full flex justify-evenly">
+        <div className="  w-full flex justify-evenly">
           <span className=" font-semibold text-xl uppercase text-slate-700">
             {obj.title}
           </span>
@@ -102,12 +103,12 @@ function CarouselContent({ obj }) {
             target="_blank"
             rel="noreferrer"
           >
-            <span>Visit Website</span>
+            <span>Visit Website </span>
             <Icon icon="heroicons-outline:external-link" />
           </a>
         </div>
         {/* Description */}
-        <p className="italic">{obj.description}</p>
+        <p className=" w-full italic text-left ">{obj.description}</p>
         {/* Detail Pair BOX */}
         <div>
           <div className="flex items-center w-full">
@@ -119,29 +120,32 @@ function CarouselContent({ obj }) {
             </div>
           </div>
           <div className="flex items-center w-full">
-            <p className=" w-[20%] font-light text-xs uppercase">Features:</p>
-            <p>Long scroll, portofoliohow images</p>
+            <p className=" w-[20%] font-light text-xs uppercase ">Features:</p>
+            <p className=" text-sm">{obj.features}</p>
           </div>
-
           <div className="flex items-center w-full">
             <p className=" w-[20%] font-light text-xs uppercase">Type:</p>
-            <p>Side Project/Client Project</p>
+            <p className=" text-sm">{obj.type}</p>
           </div>
           <div className="flex items-center w-full">
             <p className=" w-[20%] font-light text-xs uppercase">Published:</p>
-            <p>June, 2020</p>
+            <p className=" text-sm">{obj.published}</p>
           </div>
           <div className="flex items-center w-full">
             <p className=" w-[20%] font-light text-xs uppercase">GIT Repo:</p>
-            <a
-              className="flex justify-center items-center space-x-1 px-2 text-sm text-slate-100 rounded-lg bg-gray-600 opacity-100 duration-300 hover:opacity-80"
-              href={obj.code}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>View Code</span>
-              <Icon icon="akar-icons:github-fill" />
-            </a>
+            {obj.code ? (
+              <a
+                className="flex justify-center items-center space-x-1 px-2 text-sm text-slate-100 rounded-lg cursor-pointer bg-gray-600 opacity-100 duration-300 hover:opacity-80"
+                href={obj.code}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>View Code </span>
+                <Icon icon="akar-icons:github-fill" />
+              </a>
+            ) : (
+              "---"
+            )}
           </div>
         </div>
       </div>
