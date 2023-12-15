@@ -26,7 +26,7 @@ export default function Carousel() {
     <div className=" h-full w-[73rem] flex flex-col justify-between items-center overflow-hidden">
       {/* INNER */}
       <div
-        className={` w-full h-[30rem] transition ease-out duration-300 space-x-1  whitespace-nowrap`}
+        className={` w-full h-[30rem] transition ease-out duration-300  whitespace-nowrap`}
         // style={{
         //   transform: `translateX(-${current * 100}%)`,
         // }}
@@ -81,9 +81,9 @@ export default function Carousel() {
 
 function CarouselContent({ obj }) {
   return (
-    <div className="h-full w-full  inline-flex items-center border-2 border-red-500">
+    <div className="h-full w-full inline-flex items-center overflow-hidden">
       {/* IMAGE */}
-      <div className=" flex-1 rounded-md shadow-sm shadow-gray-600 bg-greenLight ">
+      <div className=" ml-2 p-2 flex-1 rounded-md shadow-sm shadow-gray-600 bg-greenLight ">
         <img
           src={`/images/${obj.image}.png`}
           alt=""
@@ -91,7 +91,7 @@ function CarouselContent({ obj }) {
         />
       </div>
       {/* DATA */}
-      <div className=" w-[50%]  flex flex-col justify-around space-y-12 border-2 border-black  whitespace-break-spaces">
+      <div className=" w-[50%] pl-8  flex flex-col justify-around space-y-12 whitespace-break-spaces">
         {/* Title and Link BOX */}
         <div className="  w-full flex justify-evenly">
           <span className=" font-semibold text-xl uppercase text-slate-700">
@@ -110,10 +110,10 @@ function CarouselContent({ obj }) {
         {/* Description */}
         <p className=" w-full italic text-left ">{obj.description}</p>
         {/* Detail Pair BOX */}
-        <div>
+        <div className=" space-y-1">
           <div className="flex items-center w-full">
             <p className=" w-[20%] font-light text-xs uppercase">Tech Stack:</p>
-            <div className="flex space-x-2 text-xl">
+            <div className="flex-1 flex items-center space-x-2 text-xl">
               {obj.tech.map((el, i) => (
                 <Icon key={i} icon={el} />
               ))}
@@ -121,7 +121,7 @@ function CarouselContent({ obj }) {
           </div>
           <div className="flex items-center w-full">
             <p className=" w-[20%] font-light text-xs uppercase ">Features:</p>
-            <p className=" text-sm">{obj.features}</p>
+            <p className=" flex-1 text-sm">{obj.features}</p>
           </div>
           <div className="flex items-center w-full">
             <p className=" w-[20%] font-light text-xs uppercase">Type:</p>

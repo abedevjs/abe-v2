@@ -4,10 +4,10 @@ export const portofolio = [
     image: "omnifood1",
     website: "https://omniflood.netlify.app",
     description:
-      "My first side-project as web developer. A landing page of Omnifood as a healthy food company. I remember doing this using Float css property.",
+      "My first side-project as web developer. A landing page of Omnifood as a healthy food company. I remember doing this using Float CSS property.",
     tech: ["icomoon-free:html-five2", "nonicons:css-16"],
     features:
-      "Images Showcase, Sticky Navigation, Google Map, Long-Scroll, Mobile Responsive",
+      "Images Showcase, Sticky Navigation, Google Map, Long-Scroll, Mobile Responsive.",
     type: "Side Project",
     code: "",
     published: "May, 2020",
@@ -17,9 +17,9 @@ export const portofolio = [
     image: "trillo",
     website: "https://abe-trillo.vercel.app/",
     description:
-      "Simple landing page for practicing Flexbox. This my first time using animations for css",
+      "Simple landing page for practicing Flexbox. This was my first time using animations with SCSS as well.",
     tech: ["icomoon-free:html-five2", "nonicons:css-16", "fa6-brands:sass"],
-    features: "Image Showcase, Button Animation",
+    features: "Image Showcase, Flexbox Layout, Button Animation.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-trillo",
     published: "June, 2020",
@@ -31,7 +31,7 @@ export const portofolio = [
     description:
       "Landing page for Nexter a real estate company. I combine Flexbox and Grid. Also using Grid for its media queries.",
     tech: ["icomoon-free:html-five2", "nonicons:css-16", "fa6-brands:sass"],
-    features: "Grid Image Showcase, Mobile Responsive",
+    features: "Grid Image Showcase, Grid Layout, Mobile Responsive.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-trillo",
     published: "June, 2020",
@@ -44,7 +44,7 @@ export const portofolio = [
       "Landing page for Natours a travel company. Applying lots of CSS Animations, and also for the first time using video as background instead of image.",
     tech: ["icomoon-free:html-five2", "nonicons:css-16", "fa6-brands:sass"],
     features:
-      "Animations, Card, Video Background, Polygon Clip Path, Form, Mobile Responsive",
+      "Animations, Pricing Cards, Video Background, Modal Navigation, Polygon Clip Path, Form, Mobile Responsive, Large Footer.",
     type: "Side Project",
     code: "https://github.com/abedevjs/natours-landingPage",
     published: "June, 2020",
@@ -54,7 +54,7 @@ export const portofolio = [
     image: "celexport1",
     website: "https://celexport-v1.vercel.app/",
     description:
-      "My first client-project. A landing page for Celexport as a spices export company. I use all my knowledge about css such as flexbox and grid also tab here. ",
+      "My first client-project. A landing page for Celexport as a spices export company. I implemented all my knowledge on CSS such as Flexbox and Grid also Tab here. ",
     tech: [
       "icomoon-free:html-five2",
       "nonicons:css-16",
@@ -62,7 +62,7 @@ export const portofolio = [
       "teenyicons:javascript-outline",
     ],
     features:
-      "Long-Scroll, SVG Icons, Tab, Scroll-Tab, Sticky Nav, Google Map, Mobile Responsive",
+      "Long-Scroll, SVG Icons, Modal Form, Tab, Scroll-Tab, Sticky Nav, Google Map, Mobile Responsive.",
     type: "Client Project",
     code: "https://github.com/abedevjs/Celexport-v1-static",
     published: "August, 2020",
@@ -74,7 +74,7 @@ export const portofolio = [
     description:
       "My first web application. An interactive map for calculating the workout along with time and cadence, persisted in the local storage.",
     tech: ["teenyicons:javascript-outline"],
-    features: "Web App, Interactive Map, Local Storage",
+    features: "Web App, Interactive Map, Local Storage, Geolocation.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-js-mapty",
     published: "September, 2020",
@@ -84,9 +84,9 @@ export const portofolio = [
     image: "forkify",
     website: "https://maumasak.netlify.app/",
     description:
-      "A cooking recipe web app. Fetching an API for various recipes just by typing a keyword in the search bar.",
+      "A cooking recipe web app. Implementing RESTful API for searching, editing, bookmarking, adding, and deleting recipes. ",
     tech: ["teenyicons:javascript-outline"],
-    features: "Web App, API fetch, Pagination, Local Storage",
+    features: "Web App, RESTful API, Pagination, Modal Form, Local Storage.",
     type: "Side Project",
     code: "https://github.com/abedevjs/course-forkify",
     published: "September, 2020",
@@ -106,7 +106,7 @@ export const portofolio = [
       "simple-icons:mongodb",
     ],
     features:
-      "Web App, REST API, CRUD database, Authentication, Authorization, Web Securities, Mail Automatization",
+      "Web App, REST API, CRUD database, Authentication, Authorization, Web Securities, Mail Automatization, Payment Integration.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-natours",
     published: "January, 2021",
@@ -124,7 +124,7 @@ export const portofolio = [
       "teenyicons:javascript-outline",
     ],
     features:
-      "Long-Scroll, Linkedin Video, Tab, Slider, Tabel, Price Calculator, Animations",
+      "Long-Scroll, Linkedin Video, Tab, Slider, Modal Form, Tabel, Price Calculator, Animations.",
     type: "Client Project",
     code: "https://github.com/abedevjs/Celexport-v2-static",
     published: "September, 2022",
@@ -134,14 +134,14 @@ export const portofolio = [
     image: "prancis",
     website: "https://belajarprancis.netlify.app/",
     description:
-      "French Course web app. User can listen the podcast while reading the pdf",
+      "French Course web app. User can listen the podcast while reading the script as lesson in pdf file.",
     tech: [
       "icomoon-free:html-five2",
       "nonicons:css-16",
       "fa6-brands:sass",
       "teenyicons:javascript-outline",
     ],
-    features: "Music Player, Color Mix",
+    features: "Audio Player, Color Mix, List Scrolling.",
     type: "Side Project",
     code: "https://github.com/abedevjs/BelajarPrancis-v1-static",
     published: "September, 2022",
@@ -153,7 +153,7 @@ export const portofolio = [
     description:
       "My first project using Front End framework. The Email Client web app, sending and receiving email using Angular.",
     tech: ["file-icons:typescript", "teenyicons:angular-outline"],
-    features: "Web App, Form, Authentication, Client Side Rendering",
+    features: "Web App, Form, Authentication, Client Side Rendering.",
     type: "Side Project",
     code: "https://github.com/abedevjs/13Emailclient",
     published: "Desember, 2022",
@@ -162,8 +162,7 @@ export const portofolio = [
     title: "Employee",
     image: "employee",
     website: "https://abemeanone.vercel.app/",
-    description:
-      "Web App, Form, Form Authentication, CRUD Databse, RESTFUL API",
+    description: "A simple data manipulation web app. ",
     tech: [
       "file-icons:typescript",
       "teenyicons:angular-outline",
@@ -171,7 +170,8 @@ export const portofolio = [
       "teenyicons:nodejs-outline",
       "simple-icons:mongodb",
     ],
-    features: "Web App, Form, Authentication, Client Side Rendering",
+    features:
+      "Web App, Client Side Rendering, Form Authentication, CRUD Databse, RESTful API.",
     type: "Side Project",
     code: "https://github.com/abedevjs/employeeMEAN-fe",
     published: "Desember, 2022",
@@ -187,7 +187,7 @@ export const portofolio = [
       "teenyicons:angular-outline",
       "simple-icons:rust",
     ],
-    features: "Input Image, Gradient-Animation Background",
+    features: "Input Image, Gradient-Animation Background.",
     type: "Side Project",
     code: "https://github.com/abedevjs/gambar-blur",
     published: "April, 2023",
@@ -197,13 +197,14 @@ export const portofolio = [
     image: "clips",
     website: "https://abe-video.vercel.app/",
     description:
-      "A platform for gamer uploading their clip (video). A client side rendering web app, persisted in remote database.",
+      "A platform for gamer uploading and deleting their favourite clip (video). A client side rendering web app, persisted in remote database.",
     tech: [
       "file-icons:typescript",
       "teenyicons:angular-outline",
       "teenyicons:firebase-outline",
     ],
-    features: "Video Background, video list, CRUD Database, RESTful API",
+    features:
+      "Video Background, Video List, Modal Login, Authentication, CRUD Database, RESTful API, Animations.",
     type: "Side Project",
     code: "https://github.com/abedevjs/AngularZtmClips",
     published: "April, 2023",
@@ -215,7 +216,7 @@ export const portofolio = [
     description:
       "My first Tailwind course, making a landing page for saas company, Shortly.",
     tech: ["icomoon-free:html-five2", "file-icons:tailwind"],
-    features: "SVG Image, Color Palette, Large Footer",
+    features: "SVG Image, Color Palette, Large Footer.",
     type: "Side Project",
     code: "https://github.com/abedevjs/tailwind-bradtraversy-shortly",
     published: "April, 2023",
@@ -226,7 +227,7 @@ export const portofolio = [
     website: "https://charming-alfajores-723fa4.netlify.app/",
     description: "A landing page for saas company, Clipboard.",
     tech: ["icomoon-free:html-five2", "file-icons:tailwind"],
-    features: "Color Palette, Big Image, Big Font",
+    features: "Color Palette, Big Image, Big Font.",
     type: "Side Project",
     code: "https://github.com/abedevjs/tailwind-bradtraversy-clipboard",
     published: "April, 2023",
@@ -246,10 +247,9 @@ export const portofolio = [
     title: "traveling app",
     image: "traveling",
     website: "https://abe-travel.netlify.app/",
-    description:
-      "My first React app. Making a to-do list before user going to travel.",
+    description: "My first React app. Making a to-do list before traveling.",
     tech: ["akar-icons:react-fill"],
-    features: "Retro Ambience, ToDo List, Checklist",
+    features: "Retro Ambience, ToDo List, Checklist.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-travel",
     published: "July, 2023",
@@ -270,9 +270,9 @@ export const portofolio = [
     title: "popcorn",
     image: "popcorn",
     website: "https://abe-movie-list.vercel.app/",
-    description: "Searching, Giving Rate, Bookmarking your favorite movie",
+    description: "Searching, Giving Rate, Bookmarking your favorite movie.",
     tech: ["akar-icons:react-fill"],
-    features: "Dynamic List, API Fetch",
+    features: "Dynamic List, API Fetch, Local Storage.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-movieList",
     published: "July, 2023",
@@ -281,9 +281,9 @@ export const portofolio = [
     title: "quiz",
     image: "quiz",
     website: "https://abe-quiz.netlify.app/",
-    description: "React Quiz app",
+    description: "React Quiz app.",
     tech: ["akar-icons:react-fill"],
-    features: "Multiple Answer, Scoring",
+    features: "Multiple Answer, Scoring, Animations.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-quiz",
     published: "August, 2023",
@@ -292,9 +292,9 @@ export const portofolio = [
     title: "worldwise",
     image: "worldwise",
     website: "https://abe-worldwise.netlify.app/",
-    description: "Pin and add note your recent trip web app",
+    description: "Pin and add note your recent trip web app.",
     tech: ["akar-icons:react-fill"],
-    features: "Interactive Map, Geolocation",
+    features: "CRUD Database, Interactive Map, Geolocation, Local Storage.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-worldwise",
     published: "August, 2023",
@@ -304,9 +304,10 @@ export const portofolio = [
     image: "pizza",
     website: "https://abe-pizza.netlify.app/",
     description:
-      "Choose pizza, add topping, and give your address. A pizza delivery web app",
+      "A pizza delivery web app for user to choose pizza, add topping, and give your address. We calculate the price and estimate time delivery.",
     tech: ["akar-icons:react-fill"],
-    features: "Interactive Form, Geolocation",
+    features:
+      "Interactive Form, Geolocation, CRUD Database, Local Storage, API Fetch.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-pizza",
     published: "August, 2023",
@@ -316,14 +317,14 @@ export const portofolio = [
     image: "oasis",
     website: "https://abe-oasis.netlify.app/",
     description:
-      "A cabin booking app. Hotel staff can create, edit, delete cabin. Check In-Out Guest, and more",
+      "A cabin booking app. Hotel staff can create, edit, delete cabin. Check In-Out Guest, and more.",
     tech: [
       "file-icons:styledcomponents",
       "akar-icons:react-fill",
       "tabler:brand-supabase",
     ],
     features:
-      "Interactive Statistic, CRUD Database, RESTful API, Client-Side Rendering",
+      "Interactive Statistic, CRUD Database, Modal Form, Authentication, Authorization, RESTful API, Client-Side Rendering.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-theWildOasis",
     published: "August, 2023",
@@ -333,7 +334,7 @@ export const portofolio = [
     image: "babagasi",
     website: "https://babagasi.com/",
     description:
-      "A baggage consignment web app. User can sell their flight baggage also buy another other's.",
+      "A baggage consignment web app. Users can buy-sell each other's flight baggage.",
     tech: [
       "file-icons:tailwind",
       "akar-icons:react-fill",
@@ -342,7 +343,8 @@ export const portofolio = [
       "simple-icons:mongoose",
       "simple-icons:mongodb",
     ],
-    features: "CRUD Database, RESTful API, Table, Google Oauth, Facebook Oauth",
+    features:
+      "CRUD Database, RESTful API, Web Security, Google Oauth, Facebook Oauth, Authentication, Authorization, Server-Client Side Rendering, Geolocation, Modal Navigation, Table.",
     type: "Client Project",
     code: "https://github.com/abedevjs/baka-v1-style",
     published: "September, 2023",
