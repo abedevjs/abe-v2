@@ -12,7 +12,7 @@ import Database from "./Profile Details/Database";
 
 function Profile() {
   return (
-    <div className=" w-full py-2 px-6 flex justify-around">
+    <div className=" w-full py-2 px-6 flex justify-around lg:flex-col lg:space-y-4">
       <LeftSide />
       <RightSide />
     </div>
@@ -23,11 +23,11 @@ function LeftSide() {
   return (
     <div className="flex flex-col space-y-4 ">
       <Biodata />
+      <Contact />
       <GeneralEducation />
       <TechEducation />
       <JobExperience />
       <LanguageSpoken />
-      <Contact />
     </div>
   );
 }
@@ -37,7 +37,7 @@ function RightSide() {
     <div className=" flex flex-col space-y-4">
       <Courses />
       <LanguageProgramming />
-      <div className="flex items-center space-x-2">
+      <div className="flex items-center space-x-2 sm:space-x-0 sm:flex-col sm:space-y-4">
         <Frontend />
         <Backend />
       </div>

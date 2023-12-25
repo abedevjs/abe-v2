@@ -2,7 +2,7 @@ function LanguageSpoken() {
   return (
     <div className=" w-full">
       <span className=" font-semibold">Spoken Languages:</span>
-      <ul className=" list-disc list-inside columns-3">
+      <ul className=" list-disc list-inside columns-3 sm:columns-1">
         <li>English</li>
         <li>French</li>
         <li>Arabic</li>

@@ -58,10 +58,10 @@ export default function Carousel() {
 
   return (
     // CAROUSEL
-    <div className=" h-full w-[73rem] flex flex-col justify-between items-center overflow-hidden">
+    <div className=" h-full w-[73rem] flex flex-col justify-between items-center overflow-hidden lg:w-[43rem] md:w-[40rem] sm:w-full">
       {/* INNER */}
       <div
-        className={` w-full h-[30rem] transition ease-out duration-300  whitespace-nowrap`}
+        className={` w-full h-[30rem] transition ease-out duration-300  whitespace-nowrap sm:mx-auto`}
         // style={{
         //   transform: `translateX(-${current * 100}%)`,
         // }}
@@ -90,7 +90,7 @@ export default function Carousel() {
         })}
       </div> */}
 
-      <div className=" w-1/2 flex items-center justify-evenly">
+      <div className=" w-1/2 flex items-center justify-evenly lg:w-full">
         {/* TITLE */}
         <p className="  text-sm font-light">{`Slide ${current + 1} of ${
           portofolio.length
@@ -116,9 +116,9 @@ export default function Carousel() {
 
 function CarouselContent({ obj }) {
   return (
-    <div className="h-full w-full inline-flex items-center overflow-hidden">
+    <div className="h-full w-full inline-flex items-center overflow-hidden lg:inline-block lg:overflow-visible lg:space-y-8">
       {/* IMAGE */}
-      <div className=" ml-2 p-2 flex-1 rounded-md shadow-sm shadow-gray-600 bg-greenLight ">
+      <div className=" ml-2 p-2 flex-1 rounded-md shadow-sm shadow-gray-600 bg-greenLight lg:ml-0 lg:p-0">
         <img
           src={`/images/${obj.image}.png`}
           alt=""
@@ -126,7 +126,7 @@ function CarouselContent({ obj }) {
         />
       </div>
       {/* DATA */}
-      <div className=" w-[50%] pl-8  flex flex-col justify-around space-y-12 whitespace-break-spaces">
+      <div className=" w-[50%] pl-8  flex flex-col justify-around space-y-12 whitespace-break-spaces lg:w-full lg:pl-0">
         {/* Title and Link BOX */}
         <div className="  w-full flex justify-evenly">
           <span className=" font-semibold text-xl uppercase text-slate-700">

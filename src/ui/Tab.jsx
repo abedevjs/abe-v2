@@ -34,7 +34,7 @@ function TabButton({ tabObj, showTab, setShowTab }) {
 
 function TabContent({ showTab }) {
   return (
-    <div className=" flex items-center justify-between">
+    <div className=" flex items-center justify-between lg:pb-4 lg:px-4 sm:px-0">
       {showTab == 1 && <Profile />}
       {showTab == 2 && <Portfolio />}
     </div>

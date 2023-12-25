@@ -8,35 +8,40 @@ function Frontend() {
       <div className="flex items-center space-x-2">
         <Icon
           icon="devicon:sass"
-          height="2rem"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Sass"
           data-tooltip-content="Sass SCSS"
           data-tooltip-place="top"
         />
         <Icon
           icon="devicon:tailwindcss"
-          height="2rem"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Tailwind"
           data-tooltip-content="Tailwind CSS"
           data-tooltip-place="top"
         />
         <Icon
           icon="vscode-icons:file-type-styled"
-          height="2rem"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Styled"
           data-tooltip-content="Styled Component"
           data-tooltip-place="top"
         />
         <Icon
           icon="devicon:react"
-          height="2rem"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="React"
           data-tooltip-content="React"
           data-tooltip-place="top"
         />
         <Icon
           icon="devicon:angular"
-          height="2rem"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Angular"
           data-tooltip-content="Angular"
           data-tooltip-place="top"

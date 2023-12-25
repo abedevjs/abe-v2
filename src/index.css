@@ -8,10 +8,10 @@ body {
 }
 
 #root {
-  height: 100vh;
+  /* height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 nav a.active {
