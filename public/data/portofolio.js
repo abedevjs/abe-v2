@@ -248,7 +248,7 @@ export const portofolio = [
     image: "traveling",
     website: "https://abe-travel.netlify.app/",
     description: "My first React app. Making a to-do list before traveling.",
-    tech: ["akar-icons:react-fill"],
+    tech: ["teenyicons:javascript-outline", "akar-icons:react-fill"],
     features: "Retro Ambience, ToDo List, Checklist.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-travel",
@@ -260,7 +260,7 @@ export const portofolio = [
     website: "https://abe-eatsplit.netlify.app/",
     description:
       "A calculator and debt reminder when splitting the bill with friends.",
-    tech: ["akar-icons:react-fill"],
+    tech: ["teenyicons:javascript-outline", "akar-icons:react-fill"],
     features: "Dynamic Form",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-eatSplit",
@@ -271,7 +271,7 @@ export const portofolio = [
     image: "popcorn",
     website: "https://abe-movie-list.vercel.app/",
     description: "Searching, Giving Rate, Bookmarking your favorite movie.",
-    tech: ["akar-icons:react-fill"],
+    tech: ["teenyicons:javascript-outline", "akar-icons:react-fill"],
     features: "Dynamic List, API Fetch, Local Storage.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-movieList",
@@ -282,7 +282,7 @@ export const portofolio = [
     image: "quiz",
     website: "https://abe-quiz.netlify.app/",
     description: "React Quiz app.",
-    tech: ["akar-icons:react-fill"],
+    tech: ["teenyicons:javascript-outline", "akar-icons:react-fill"],
     features: "Multiple Answer, Scoring, Animations.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-quiz",
@@ -293,7 +293,7 @@ export const portofolio = [
     image: "worldwise",
     website: "https://abe-worldwise.netlify.app/",
     description: "Pin and add note your recent trip web app.",
-    tech: ["akar-icons:react-fill"],
+    tech: ["teenyicons:javascript-outline", "akar-icons:react-fill"],
     features: "CRUD Database, Interactive Map, Geolocation, Local Storage.",
     type: "Side Project",
     code: "https://github.com/abedevjs/udemy-jonas-worldwise",
@@ -305,7 +305,7 @@ export const portofolio = [
     website: "https://abe-pizza.netlify.app/",
     description:
       "A pizza delivery web app for user to choose pizza, add topping, and give your address. We calculate the price and estimate time delivery.",
-    tech: ["akar-icons:react-fill"],
+    tech: ["teenyicons:javascript-outline", "akar-icons:react-fill"],
     features:
       "Interactive Form, Geolocation, CRUD Database, Local Storage, API Fetch.",
     type: "Side Project",
@@ -320,6 +320,7 @@ export const portofolio = [
       "A cabin booking app. Hotel staff can create, edit, delete cabin. Check In-Out Guest, and more.",
     tech: [
       "file-icons:styledcomponents",
+      "teenyicons:javascript-outline",
       "akar-icons:react-fill",
       "tabler:brand-supabase",
     ],
@@ -334,9 +335,10 @@ export const portofolio = [
     image: "babagasi",
     website: "https://babagasi.com/",
     description:
-      "A baggage consignment web app. Users can buy-sell each other's flight baggage.",
+      "A baggage consignment web app. Users can buy or sell flight baggage.",
     tech: [
       "file-icons:tailwind",
+      "teenyicons:javascript-outline",
       "akar-icons:react-fill",
       "simple-icons:express",
       "teenyicons:nodejs-outline",
@@ -347,6 +349,6 @@ export const portofolio = [
       "CRUD Database, RESTful API, Web Security, Google Oauth, Facebook Oauth, Authentication, Authorization, Server-Client Side Rendering, Geolocation, Modal Navigation, Table.",
     type: "Client Project",
     code: "https://github.com/abedevjs/baka-v1-style",
-    published: "September, 2023",
+    published: "December, 2023",
   },
 ];

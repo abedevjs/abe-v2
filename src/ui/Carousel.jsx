@@ -1,6 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Icon } from "@iconify/react";
 import { portofolio } from "../../public/data/portofolio";
+
+// React Carousel Slider Tutorial
+//* https://www.youtube.com/watch?v=CMg_1KxpM_4
 
 export default function Carousel() {
   let [current, setCurrent] = useState(0);
@@ -21,6 +24,38 @@ export default function Carousel() {
     }
   };
 
+  //! Keypress ArrowRight and ArrowLeft functionality --start
+  //* https://www.youtube.com/watch?v=D5SdvGMTEaU&t=1s
+  //* https://www.youtube.com/watch?v=Aq8PnD-gn1g
+  useEffect(
+    function () {
+      const detectKeyDown = (e) => {
+        if (e.key == "ArrowLeft") {
+          if (current === 0) {
+            setCurrent(portofolio.length - 1);
+          } else {
+            setCurrent(current - 1);
+          }
+        }
+        if (e.key == "ArrowRight") {
+          if (current === portofolio.length - 1) {
+            setCurrent(0);
+          } else {
+            setCurrent(current + 1);
+          }
+        }
+
+        return null;
+      };
+      window.addEventListener("keydown", detectKeyDown, true);
+      return () => {
+        window.removeEventListener("keydown", detectKeyDown, true);
+      };
+    },
+    [current]
+  );
+  //! Keypress ArrowRight and ArrowLeft functionality --end
+
   return (
     // CAROUSEL
     <div className=" h-full w-[73rem] flex flex-col justify-between items-center overflow-hidden">
@@ -34,7 +69,7 @@ export default function Carousel() {
       >
         {/* ITEM */}
         {portofolio.map((el, i) => (
-          <CarouselContent key={i} obj={el} w="100%" />
+          <CarouselContent key={i} obj={el} />
         ))}
       </div>
 
