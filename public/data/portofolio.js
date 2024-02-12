@@ -352,3 +352,5 @@ export const portofolio = [
     published: "December, 2023",
   },
 ];
+
+portofolio.reverse();
