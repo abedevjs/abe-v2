@@ -22,14 +22,14 @@ function Database() {
           data-tooltip-content="MongoDB"
           data-tooltip-place="top"
         />
-        <Icon
+        {/* <Icon
           icon="logos:firebase"
           // height="2rem"
           className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Firebase"
           data-tooltip-content="Firebase"
           data-tooltip-place="top"
-        />
+        /> */}
         <Icon
           icon="devicon:supabase"
           // height="2rem"
@@ -39,7 +39,7 @@ function Database() {
           data-tooltip-place="top"
         />
         <Tooltip id="Mongoose" />
-        <Tooltip id="Firebase" />
+        {/* <Tooltip id="Firebase" /> */}
         <Tooltip id="Supabase" />
         <Tooltip id="MongoDB" />
       </div>

@@ -36,12 +36,14 @@ function RightSide() {
   return (
     <div className=" flex flex-col space-y-4">
       <Courses />
-      <LanguageProgramming />
       <div className="flex items-center space-x-2 sm:space-x-0 sm:flex-col sm:space-y-4">
+        <LanguageProgramming />
         <Frontend />
-        <Backend />
       </div>
-      <Database />
+      <div className="flex items-center space-x-2 sm:space-x-0 sm:flex-col sm:space-y-4">
+        <Backend />
+        <Database />
+      </div>
     </div>
   );
 }

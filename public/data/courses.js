@@ -1,5 +1,8 @@
 export const courses = [
   {
+    content: "Udemy - Typescript 5 for Developers (2024)",
+  },
+  {
     content:
       "Udemy - Software Engineering 101: Plan and Execute Better Software (2024)",
   },

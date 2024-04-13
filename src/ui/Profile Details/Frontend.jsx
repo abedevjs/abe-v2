@@ -31,6 +31,14 @@ function Frontend() {
           data-tooltip-place="top"
         />
         <Icon
+          icon="logos:material-ui"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
+          data-tooltip-id="Material UI"
+          data-tooltip-content="Material UI"
+          data-tooltip-place="top"
+        />
+        <Icon
           icon="devicon:react"
           // height="2rem"
           className=" w-8 h-8 sm:w-6 sm:h-6"
@@ -38,20 +46,21 @@ function Frontend() {
           data-tooltip-content="React"
           data-tooltip-place="top"
         />
-        <Icon
+        {/* <Icon
           icon="devicon:angular"
           // height="2rem"
           className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Angular"
           data-tooltip-content="Angular"
           data-tooltip-place="top"
-        />
+        /> */}
 
         <Tooltip id="Sass" />
         <Tooltip id="Tailwind" />
         <Tooltip id="Styled" />
+        <Tooltip id="Material UI" />
         <Tooltip id="React" />
-        <Tooltip id="Angular" />
+        {/* <Tooltip id="Angular" /> */}
       </div>
     </div>
   );
