@@ -22,22 +22,22 @@ function Frontend() {
           data-tooltip-content="Tailwind CSS"
           data-tooltip-place="top"
         />
-        <Icon
+        {/* <Icon
           icon="vscode-icons:file-type-styled"
           // height="2rem"
           className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Styled"
           data-tooltip-content="Styled Component"
           data-tooltip-place="top"
-        />
-        <Icon
+        /> */}
+        {/* <Icon
           icon="logos:material-ui"
           // height="2rem"
           className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="Material UI"
           data-tooltip-content="Material UI"
           data-tooltip-place="top"
-        />
+        /> */}
         <Icon
           icon="devicon:framermotion"
           // height="2rem"
@@ -66,8 +66,8 @@ function Frontend() {
         <Tooltip id="Sass" />
         <Tooltip id="Tailwind" />
         <Tooltip id="Framer Motion" />
-        <Tooltip id="Styled" />
-        <Tooltip id="Material UI" />
+        {/* <Tooltip id="Styled" /> */}
+        {/* <Tooltip id="Material UI" /> */}
         <Tooltip id="React" />
         {/* <Tooltip id="Angular" /> */}
       </div>
