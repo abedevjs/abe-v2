@@ -39,6 +39,14 @@ function Frontend() {
           data-tooltip-place="top"
         />
         <Icon
+          icon="devicon:framermotion"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
+          data-tooltip-id="Framer Motion"
+          data-tooltip-content="Framer Motion"
+          data-tooltip-place="top"
+        />
+        <Icon
           icon="devicon:react"
           // height="2rem"
           className=" w-8 h-8 sm:w-6 sm:h-6"
@@ -57,6 +65,7 @@ function Frontend() {
 
         <Tooltip id="Sass" />
         <Tooltip id="Tailwind" />
+        <Tooltip id="Framer Motion" />
         <Tooltip id="Styled" />
         <Tooltip id="Material UI" />
         <Tooltip id="React" />

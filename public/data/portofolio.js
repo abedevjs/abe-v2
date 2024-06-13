@@ -361,6 +361,23 @@ export const portofolio = [
     code: "https://github.com/abedevjs/baka-v1-style",
     published: "December, 2023",
   },
+  {
+    title: "Omrah & Hajj Travel",
+    image: "travel",
+    website: "https://travelabe.netlify.app/",
+    description:
+      "Creating an Omrah and Hajj Travel landing page, featuring images, videos of their activities and product pricing.",
+    tech: [
+      "file-icons:tailwind",
+      "akar-icons:react-fill",
+      "devicon:framermotion",
+    ],
+    features:
+      "Background Video, Linear Gradient, Gallery Image, Gallery Masonry, Pricing Card, Animation",
+    type: "Client Project",
+    code: "https://github.com/abedevjs",
+    published: "June, 2024",
+  },
 ];
 
 portofolio.reverse();
