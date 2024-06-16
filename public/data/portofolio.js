@@ -366,7 +366,7 @@ export const portofolio = [
     image: "travel",
     website: "https://travelabe.netlify.app/",
     description:
-      "Creating an Omrah and Hajj Travel landing page, featuring images, videos of their activities and product pricing.",
+      "An Omrah and Hajj Travel landing page, featuring images, videos of their activities and product pricing.",
     tech: [
       "file-icons:tailwind",
       "akar-icons:react-fill",

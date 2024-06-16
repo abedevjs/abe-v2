@@ -17,7 +17,7 @@ function JobExperience() {
             <p className=" font-semibold">Junior Developer</p>
             <p>Baka &#x2022; April 2022 - present</p>
             <p>
-              Responsibility: Planning, designing, building, and deploying the
+              Responsibility: Planning, designing, developing, and deploying the
               web application for Baka.
             </p>
           </div>
@@ -36,7 +36,7 @@ function JobExperience() {
             <p className=" font-semibold">Entry Level</p>
             <p>Celexport &#x2022; Februari 2021 - Februari 2022</p>
             <p>
-              Responsibility: Planning, designing, building, and deploying the
+              Responsibility: Planning, designing, developing, and deploying the
               landing page for Celexport.
             </p>
           </div>
