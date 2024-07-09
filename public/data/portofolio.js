@@ -378,6 +378,18 @@ export const portofolio = [
     code: "https://github.com/abedevjs",
     published: "June, 2024",
   },
+  {
+    title: "The Wild Oasis",
+    image: "oasisweb",
+    website: "https://wild-oasis-next-js-gamma.vercel.app/",
+    description: "A Cabin reservation web app",
+    tech: ["file-icons:tailwind", "file-icons:nextjs", "tabler:brand-supabase"],
+    features:
+      "Cliend-Side Rendering, Authentication, Authorization, Google Oauth, CRUD Database, Serverless Function, Date Selector",
+    type: "Side Project",
+    code: "https://github.com/abedevjs/wildOasis-NextJs",
+    published: "July, 2024",
+  },
 ];
 
 portofolio.reverse();

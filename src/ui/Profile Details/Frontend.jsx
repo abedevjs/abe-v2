@@ -62,6 +62,14 @@ function Frontend() {
           data-tooltip-content="Angular"
           data-tooltip-place="top"
         /> */}
+        <Icon
+          icon="devicon:nextjs"
+          // height="2rem"
+          className=" w-8 h-8 sm:w-6 sm:h-6"
+          data-tooltip-id="NextJs"
+          data-tooltip-content="NextJs"
+          data-tooltip-place="top"
+        />
 
         <Tooltip id="Sass" />
         <Tooltip id="Tailwind" />
@@ -70,6 +78,7 @@ function Frontend() {
         {/* <Tooltip id="Material UI" /> */}
         <Tooltip id="React" />
         {/* <Tooltip id="Angular" /> */}
+        <Tooltip id="NextJs" />
       </div>
     </div>
   );

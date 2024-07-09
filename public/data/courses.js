@@ -8,7 +8,7 @@ export const courses = [
   },
   {
     content:
-      "Udemy - The Ultimate React Course 2024: React, Redux & More (2023)",
+      "Udemy - The Ultimate React Course 2024: React, NextJs, Redux & More (2023)",
   },
   {
     content:
