@@ -362,7 +362,7 @@ export const portofolio = [
     published: "December, 2023",
   },
   {
-    title: "Omrah & Hajj Travel",
+    title: "Omrah & Hajj Travel 1",
     image: "travel",
     website: "https://travelabe.netlify.app/",
     description:
@@ -388,6 +388,23 @@ export const portofolio = [
       "Cliend-Side Rendering, Authentication, Authorization, Google Oauth, CRUD Database, Serverless Function, Date Selector",
     type: "Side Project",
     code: "https://github.com/abedevjs/wildOasis-NextJs",
+    published: "July, 2024",
+  },
+  {
+    title: "Omrah & Hajj Travel 2",
+    image: "travel2",
+    website: "https://travelabe-v2.vercel.app/",
+    description:
+      "A simplified Omrah and Hajj Travel landing page, featuring images, videos of their activities and product pricing.",
+    tech: [
+      "file-icons:tailwind",
+      "akar-icons:react-fill",
+      "devicon:framermotion",
+    ],
+    features:
+      "Background Image, Linear Gradient, Gallery Image, Pricing Card, Animation",
+    type: "Client Project",
+    code: "https://github.com/abedevjs/travel-v2",
     published: "July, 2024",
   },
 ];
