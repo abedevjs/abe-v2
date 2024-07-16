@@ -15,7 +15,7 @@ function Backend() {
           data-tooltip-place="top"
         />
         <Icon
-          icon="devicon:nodejs"
+          icon="logos:nodejs-icon"
           // height="2rem"
           className=" w-8 h-8 sm:w-6 sm:h-6"
           data-tooltip-id="NodeJS"

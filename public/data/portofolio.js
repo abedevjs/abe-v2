@@ -385,7 +385,7 @@ export const portofolio = [
     description: "A Cabin reservation web app",
     tech: ["file-icons:tailwind", "file-icons:nextjs", "tabler:brand-supabase"],
     features:
-      "Cliend-Side Rendering, Authentication, Authorization, Google Oauth, CRUD Database, Serverless Function, Date Selector",
+      "Client-Side Rendering, Authentication, Authorization, Google Oauth, CRUD Database, Serverless Function, Date Selector",
     type: "Side Project",
     code: "https://github.com/abedevjs/wildOasis-NextJs",
     published: "July, 2024",

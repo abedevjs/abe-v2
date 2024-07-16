@@ -8,6 +8,11 @@ function Biodata() {
     <div className=" w-full flex items-center justify-normal space-x-10 sm:space-x-0 sm:flex-col sm:space-y-2">
       <div>
         <img src="/images/green.png" alt="abe" className=" h-auto w-24" />
+        {/* <img
+          src="/images/abeGalaxyColourfulSVG.svg"
+          alt="abe"
+          className="h-auto w-24"
+        /> */}
       </div>
       <div>
         <p>Muhammad Akbar </p>
@@ -19,7 +24,7 @@ function Biodata() {
         <div className="flex items-center space-x-2 sm:space-x-0 sm:flex-col sm:space-y-1">
           <Icon icon="mdi:hand-wave" height="1rem" color="#57534e" />
           <span className="italic">
-            hello there, I`m an autodidact MERN-stack web developer.
+            hello there, I`m an autodidact web app developer.
           </span>
         </div>
       </div>
