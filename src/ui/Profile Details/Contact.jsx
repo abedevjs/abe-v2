@@ -6,7 +6,7 @@ function Contact() {
       <p className=" font-semibold mb-1">Contact:</p>
       <div className=" flex items-center space-x-2">
         <a
-          href="https://api.whatsapp.com/send/?phone=6283138256440&text=Hello+Akbar%21&type=phone_number&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=62887435477314&text=Hello+Akbar%21&type=phone_number&app_absent=0"
           target="_blank"
           rel="noreferrer"
         >
